@@ -81,7 +81,7 @@
 }
 
 .gender-input label {
-    font-size: 1vw;
+    font-size: 1rem;
     font-weight: 600;
     color: var(--azul-principal);
 }
@@ -116,6 +116,11 @@
  @media screen and (max-width:992px){
     .form{
         width: 85%;
+        
+    }
+
+    .gender-input label {
+        font-size: 1rem;
     }
  }
 
@@ -138,7 +143,18 @@
     .gender-title h6 {
         margin: 0;
     }
+
+    .gender-input label {
+        font-size: 1rem;
+    }
     .gender-input {
         margin-top: 0.5rem;
     }
+
+    .btn-continuar button{
+
+        font-size: 1rem;
+       
+     }
+    
 }

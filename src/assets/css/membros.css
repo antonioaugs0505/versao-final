@@ -14,15 +14,12 @@
     font-size: max(1rem, 2vw);
 }
 
-.voltar
-{
+.voltar{
     color: var(--branco);
     text-decoration: none;
     border: 2px solid var(--branco);
     padding: 8px 15px;
     border-radius: 30px;
-    background-color: var(--azul-principal);
     font-size: 1.4vw;
     margin-top: 20px;
 }
-

@@ -104,3 +104,31 @@
     width: 30vw;
     text-align: center;
  }
+
+ @media screen and (max-width:600px){
+
+    .contato{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .form-email{
+            width: 70%;
+            border-radius: 30px;
+            padding: 20px 30px;
+            gap: 15px;
+            margin-top: 20px;
+    }
+
+    .form-email input{
+        background: #d9d9d9;
+        border: none;
+        color: #a0a0a0;
+        font-size: .5rem;
+        font-weight: 900;
+        padding: 6px 10px;
+        border-radius: 30px;
+     }
+
+
+ }

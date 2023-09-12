@@ -22,3 +22,16 @@
 .fab:hover{
     color: var(--azul-sec);
 }
+
+@media screen and (max-width:600px) {
+    .rodape{
+    text-align: center;
+    }
+
+    .redes__sociais{
+        width: 40vw;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 15px;
+    }
+}
