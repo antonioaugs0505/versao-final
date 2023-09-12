@@ -105,7 +105,24 @@
     text-align: center;
  }
 
+ @media screen and (max-width:860px){
 
+    .apresentacao{
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .apresentacao-texto{
+        width: 75%;
+        text-align: center;
+    }
+
+    .imagem-apresentacao{
+        width: 60%;
+    }
+    
+
+ }
 
 
  @media screen and (max-width:600px){
