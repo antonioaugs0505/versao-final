@@ -203,8 +203,7 @@ export default function Solicitacao() {
 
                 </div>
 
-                <div class="gender-inputs">
-                    <div class="gender-title">
+                <div class="gender-inputs">           <div class="gender-title">
                         <h6>Gênero</h6>
                     </div>
 

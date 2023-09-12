@@ -37,6 +37,5 @@ export default function Home(){
     )
 }
 
-/* VECTOR--GUINCHO 1 */
 
 
