@@ -105,7 +105,26 @@
     text-align: center;
  }
 
+
+
+
  @media screen and (max-width:600px){
+
+    .apresentacao{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .imagem-apresentacao{
+        width: 80%;
+    }
+    
+
+    .apresentacao-texto{
+        width: 85%;
+    }
+    
 
     .contato{
         display: flex;
@@ -115,7 +134,7 @@
     .form-email{
             width: 70%;
             border-radius: 30px;
-            padding: 20px 30px;
+            padding: 40px 30px;
             gap: 15px;
             margin-top: 20px;
     }
@@ -129,6 +148,24 @@
         padding: 6px 10px;
         border-radius: 30px;
      }
+    }
 
+@media screen and (max-width:470px){
 
- }
+    .contato h3{
+        font-size: 2.2vw;
+        color: var(--branco);
+        font-weight: 800;
+        width: 30vw;
+        text-align: center;
+     }
+
+     .apresentacao-texto p{
+        color: var(--branco);
+        font-weight: 400;
+        font-size: .8rem;
+        margin-bottom: 30px;
+    }
+
+    
+}
