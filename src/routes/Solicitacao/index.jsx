@@ -112,7 +112,7 @@ export default function Solicitacao() {
             <form action="#">
                 <div class="form-header">
                     <div class="title">
-                        <h1>Dados do veiculo</h1>
+                        <h1>Dados do veículo</h1>
                     </div>
                 </div>
 
@@ -164,7 +164,7 @@ export default function Solicitacao() {
             <form action="#">
                 <div class="form-header">
                     <div class="title">
-                        <h1>Dados pessoais</h1>
+                        <h1>Dados do acidente</h1>
                     </div>
                 </div>
 
@@ -176,7 +176,7 @@ export default function Solicitacao() {
                     </div>
 
                     <div class="input-box">
-                        <label for="estado-p">Cidade</label>
+                        <label for="estado-p">Estado</label>
                         <input id="estado-p" type="text" name="estado-p" placeholder="Digite sua cidade" required/>
                     </div>
 
@@ -196,7 +196,7 @@ export default function Solicitacao() {
                     </div>
 
                     <div class="input-box">
-                        <label for="numero-p">Complemento</label>
+                        <label for="complemento-p">Complemento</label>
                         <input id="complemento-p" type="text" name="complemento-p" placeholder="Digite seu completemnto" required/>
                     </div>
 
